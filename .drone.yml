@@ -1,0 +1,9 @@
+---
+kind: pipeline
+name: default
+
+steps:
+- name: demo
+  image: busybox
+  commands:
+  - echo "Hello world"
